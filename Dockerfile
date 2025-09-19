@@ -1,7 +1,7 @@
 FROM ich777/debian-baseimage:bullseye_amd64
 
-LABEL org.opencontainers.image.authors="admin@minenet.at"
-LABEL org.opencontainers.image.source="https://github.com/ich777/docker-steamcmd-server"
+LABEL org.opencontainers.image.authors="thamwar1987@gmail.com"
+LABEL org.opencontainers.image.source="https://github.com/cxsorious/docker-steamcmd-server"
 
 RUN apt-get update && \
 	apt-get -y install --no-install-recommends lib32gcc-s1 lib32stdc++6 lib32z1 && \
