@@ -30,11 +30,11 @@ docker run --name CSSource -d \
 	--env 'GID=100' \
 	--volume /path/to/steamcmd:/serverdata/steamcmd \
 	--volume /path/to/cstrikesource:/serverdata/serverfiles \
-	ich777/steamcmd:latest
+	cxsorious/steamcmd:latest
 ```
 
 This Docker was mainly edited for better use with Unraid, if you don't use Unraid you should definitely try it!
 
-This Docker is forked from mattieserver, thank you for this wonderfull Docker.
+This Docker is forked from mattieserver and ich777, thank you for this wonderfull Docker.
 
 #### Support Thread: https://forums.unraid.net/topic/79530-support-ich777-gameserver-dockers/
